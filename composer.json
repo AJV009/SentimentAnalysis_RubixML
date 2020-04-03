@@ -1,0 +1,29 @@
+{
+    "name": "rubix/sentiment",
+    "type": "project",
+    "description": "An example project using a multi layer feed forward neural network for text sentiment classification trained with 25,000 movie reviews from IMDB.",
+    "homepage": "https://github.com/RubixML/Sentiment",
+    "license": "MIT",
+    "keywords": [
+        "php", "machine", "learning", "data", "science", "mining", "predictive", "modeling", "ai",
+        "classification", "neural", "network", "natural-language-processing", "nlp", "tf-idf",
+        "multi-layer-perceptron", "feed-forward", "bag-of-words", "n-gram", "sentiment"
+    ],
+    "authors": [
+        {
+            "name": "Andrew DalPino",
+            "email": "me@andrewdalpino.com",
+            "homepage": "https://andrewdalpino.com",
+            "role": "Lead Engineer"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "league/csv": "^9.5",
+        "rubix/ml": "^0.0.18-beta"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    }
+}
